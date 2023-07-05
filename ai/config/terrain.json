@@ -1,0 +1,15 @@
+[
+    {
+        "id": 0,
+        "name": "Nothing",
+        "passable": true
+    },
+    {
+        "id": 1,
+        "name": "TallGrass"
+    },
+    {
+        "id": 2,
+        "name": "Boulder"
+    }
+]

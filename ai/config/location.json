@@ -1,0 +1,128 @@
+[
+    {
+        "location_properties": {
+            "name": "Cafe",
+            "near": ["Casino", "Disco", "Playground", "Yamamoto's house", "Lin's house", "Park"],
+            "enterance": [70,42],
+            "range": [70, 33, 83, 51],
+            "equipments": ["Ordering", "Cafe table"]
+        }
+    },
+    {
+        "location_properties": {
+            "name": "Casino",
+            "near": ["Park", "Cafe", "Disco", "Broadcast plaza"],
+            "enterance": [71,22],
+            "range": [71, 16, 95, 33],
+            "equipments": ["Gambling table"]
+        }
+    },
+    {
+        "location_properties": {
+            "name": "Disco",
+            "near": ["Cafe", "Casino", "Broadcast plaza", "Communication plaza", "Yamamoto's house", "House D"],
+            "enterance": [95,42],
+            "range": [83, 33, 96, 51],
+            "equipments": ["Bar", "Bar table", "Dance floor"]
+        }
+    },
+    {
+        "location_properties": {
+            "name": "Broadcast plaza",
+            "near": ["Art plaza", "Casino", "Disco", "Communication plaza"],
+            "enterance": [121,28],
+            "range": [109, 15, 135, 34],
+            "equipments": []
+        }
+    },
+    {
+        "location_properties": {
+            "name": "Communication plaza",
+            "near": ["Broadcast plaza", "Art plaza", "House D", "Taylor's house", "Disco"],
+            "enterance": [119,47],
+            "range": [109, 42, 121, 52],
+            "equipments": ["Desk"]
+        }
+    },
+    {
+        "location_properties": {
+            "name": "Art plaza",
+            "near": ["Broadcast plaza", "Communication plaza", "Taylor's house"],
+            "enterance": [124,47],
+            "range": [123, 42, 135, 52],
+            "equipments": ["Artwork"]
+        }
+    },
+    {
+        "location_properties": {
+            "name": "Park",
+            "near": ["Lin's house", "Casino", "Cafe"],
+            "enterance": [53,34],
+            "range": [15, 8, 54, 39],
+            "equipments": ["Park"]
+        }
+    },
+    {
+        "location_properties": {
+            "name": "Playground",
+            "near": ["Lin's house", "Moore's house", "Yamamoto's house", "Cafe"],
+            "enterance": [67,73],
+            "range": [62, 65, 78, 91],
+            "equipments": ["Goal"]
+        }
+    },
+    {
+        "location_properties": {
+            "name": "Lin's house",
+            "near": ["Park", "Moore's house", "Cafe", "Playground"],
+            "enterance": [49,60],
+            "range": [26, 54, 57, 70],
+            "equipments": ["Television", "Bed", "Bookshelf", "Fridge", "Range", "Table", "Sink", "Toilet", "Bathtub"]
+        }
+    },
+    {
+        "location_properties": {
+            "name": "Moore's house",
+            "near": ["Lin's house", "Playground"],
+            "enterance": [49,79],
+            "range": [26, 71, 57, 90],
+            "equipments": ["Television", "Bed", "Bookshelf", "Fridge", "Range", "Table", "Sink", "Toilet", "Bathtub"]
+        }
+    },
+    {
+        "location_properties": {
+            "name": "Yamamoto's house",
+            "near": ["Disco", "House D", "Cafe", "Playground", "House E"],
+            "enterance": [83,67],
+            "range": [79, 65, 91, 91],
+            "equipments": ["Television", "Bed", "Bookshelf", "Fridge", "Range", "Table", "Sink", "Toilet", "Bathtub"]
+        }
+    },
+    {
+        "location_properties": {
+            "name": "House D",
+            "near": ["Yamamoto's house", "House E", "Taylor's house", "Disco", "Communication plaza"],
+            "enterance": [98,66],
+            "range": [93, 65, 121, 78],
+            "equipments": ["Television", "Bed", "Bookshelf", "Fridge", "Range", "Table", "Sink", "Toilet", "Bathtub"]
+        }
+    },
+    {
+        "location_properties": {
+            "name": "House E",
+            "near": ["Yamamoto's house", "House D", "Taylor's house"],
+            "enterance": [99,89],
+            "range": [93, 78, 121, 91],
+            "equipments": ["Television", "Bed", "Bookshelf", "Fridge", "Range", "Table", "Sink", "Toilet", "Bathtub"]
+        }
+    },
+    {
+        "location_properties": {
+            "name": "Taylor's house",
+            "near": ["House D", "House E", "Communication plaza", "Art plaza"],
+            "enterance": [127,66],
+            "range": [123, 65, 135, 91],
+            "equipments": ["Television", "Bed", "Bookshelf", "Fridge", "Range", "Table", "Sink", "Toilet", "Bathtub"]
+        }
+    }
+]

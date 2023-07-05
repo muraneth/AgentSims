@@ -1,0 +1,30 @@
+version: '2.0'
+
+services:
+  node:
+    image: ghcr.io/foundry-rs/foundry:latest
+    command:
+      - anvil --block-time=1 --block-base-fee-per-gas 0 --host=0.0.0.0
+    ports:
+      - "8545:8545"
+    volumes:
+      - anvil-data:/var/anvil/data
+    restart: always
+
+  snapshot:
+    image: jpccr.ccs.tencentyun.com/llm-town/mud-ecs-snapshot:0.1.0
+    entrypoint:
+      - /service/ecs-snapshot
+    command:
+      - -ws-url=ws://node:8545
+      - -port=8545
+      - -snapshot-block-interval=600
+      - -initial-sync-block-batch-size=1000
+      - -initial-sync-block-batch-sync-timeout=20
+      - -worldAddresses=0x06fAddefDE8Dd5d4C6FAACe68b400754d960cb75
+    ports:
+      - "8546:8546"
+    restart: always
+
+volumes:
+  anvil-data:

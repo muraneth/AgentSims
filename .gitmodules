@@ -1,0 +1,3 @@
+[submodule "libs/mud"]
+	path = libs/mud
+	url = git@github.com:fisherOu/mud.git

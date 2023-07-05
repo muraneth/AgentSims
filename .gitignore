@@ -1,0 +1,45 @@
+# llm_town .gitignore
+
+# General
+*.log
+*.cache
+*.sqlite
+.DS_Store
+
+# Golang
+server/bin/
+*.out
+
+# GoLand
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb
+
+# Node.js
+client/node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+
+# ECS
+*.config
+node_modules
+
+# test
+test.py
+api_keys.json
+ai/exports/
+counter.txt

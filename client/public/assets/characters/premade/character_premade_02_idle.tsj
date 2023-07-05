@@ -1,0 +1,14 @@
+{ "columns":16,
+ "image":"character_premade_02_idle.png",
+ "imageheight":256,
+ "imagewidth":128,
+ "margin":0,
+ "name":"character",
+ "spacing":0,
+ "tilecount":512,
+ "tiledversion":"1.10.1",
+ "tileheight":8,
+ "tilewidth":8,
+ "type":"tileset",
+ "version":"1.10"
+}

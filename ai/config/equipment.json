@@ -1,0 +1,257 @@
+[
+    {
+        "name": "Bed",
+        "description": "You can sleep with a Bed.",
+        "operations": [
+            {
+                "name": "sleep",
+                "distance": 1,
+                "owner": false,
+                "duration": 100
+            }
+        ]
+    },
+    {
+        "name": "Television",
+        "description": "You can watch tv with a Television.",
+        "operations": [
+            {
+                "name": "watch",
+                "distance": 3,
+                "owner": false
+            }
+        ]
+    },
+    {
+        "name": "Bookshelf",
+        "description": "You can read books with a Bookshelf.",
+        "operations": [
+            {
+                "name": "read books",
+                "distance": 1,
+                "owner": false
+            }
+        ]
+    },
+    {
+        "name": "Fridge",
+        "description": "You can access to food with a Fridge.",
+        "operations": [
+            {
+                "name": "access to food",
+                "distance": 1,
+                "owner": false
+            }
+        ]
+    },
+    {
+        "name": "Sink",
+        "description": "You can wash up with a Sink.",
+        "operations": [
+            {
+                "name": "wash up",
+                "distance": 1,
+                "owner": false
+            }
+        ]
+    },
+    {
+        "name": "Toilet",
+        "description": "You can use toilet with a Toilet.",
+        "operations": [
+            {
+                "name": "use toilet",
+                "distance": 1,
+                "owner": false
+            }
+        ]
+    },
+    {
+        "name": "Bathtub",
+        "description": "You can take a shower with a bathtub.",
+        "operations": [
+            {
+                "name": "take a shower",
+                "distance": 1,
+                "owner": false
+            }
+        ]
+    },
+    {
+        "name": "Table",
+        "description": "You can have meal with a Table.",
+        "operations": [
+            {
+                "name": "have meal",
+                "distance": 1,
+                "owner": false
+            }
+        ]
+    },
+    {
+        "name": "Range",
+        "description": "You can make a meal with a Range.",
+        "operations": [
+            {
+                "name": "make a meal",
+                "distance": 1,
+                "owner": false,
+                "asset": "cooking.gif"
+            }
+        ]
+    },
+    {
+        "name": "Ordering",
+        "description": "You can order coffee, sell coffee with an Ordering.",
+        "operations": [
+            {
+                "name": "order coffee",
+                "distance": 1,
+                "owner": false
+            },
+            {
+                "name": "sell coffee",
+                "distance": 1,
+                "owner": true
+            },
+            {
+                "name": "check inventory",
+                "distance": 1,
+                "owner": true
+            }
+        ]
+    },
+    {
+        "name": "Cafe table",
+        "description": "You can drink coffee with a Cafe table.",
+        "operations": [
+            {
+                "name": "drink coffee",
+                "distance": 1,
+                "owner": false
+            }
+        ]
+    },
+    {
+        "name": "Park",
+        "description": "You can rest or exercise with a Park.",
+        "operations": [
+            {
+                "name": "rest",
+                "distance": 1,
+                "owner": false
+            },
+            {
+                "name": "exercise",
+                "distance": 1,
+                "owner": false
+            }
+        ]
+    },
+    {
+        "name": "Bar",
+        "description": "You can buy wine with a Bar.",
+        "operations": [
+            {
+                "name": "buy wine",
+                "distance": 1,
+                "owner": false
+            },{
+                "name": "sell wine",
+                "distance": 1,
+                "owner": true
+            },
+            {
+                "name": "check inventory",
+                "distance": 1,
+                "owner": true
+            }
+        ]
+    },
+    {
+        "name": "Bar table",
+        "description": "You can drink wine with a Bar table.",
+        "operations": [
+            {
+                "name": "drink wine",
+                "distance": 1,
+                "owner": false
+            }
+        ]
+    },
+    {
+        "name": "Dance floor",
+        "description": "You can dance with a Dance floor.",
+        "operations": [
+            {
+                "name": "dance",
+                "distance": 1,
+                "owner": false
+            }
+        ]
+    },
+    {
+        "name": "Desk",
+        "description": "You can communicate with a Desk.",
+        "operations": [
+            {
+                "name": "communicate",
+                "distance": 1,
+                "owner": false
+            }
+        ]
+    },
+    {
+        "name": "Artwork",
+        "description": "You can enjoy artwork or write music or poem or novel or rap music with a Artwork.",
+        "operations": [
+            {
+                "name": "enjoy artwork",
+                "distance": 1,
+                "owner": false
+            },
+            {
+                "name": "write music",
+                "distance": 1,
+                "owner": false
+            },
+            {
+                "name": "write poem",
+                "distance": 1,
+                "owner": false
+            },
+            {
+                "name": "write novel",
+                "distance": 1,
+                "owner": false
+            },
+            {
+                "name": "write rap music",
+                "distance": 1,
+                "owner": false
+            }
+        ]
+    },
+    {
+        "name": "Gambling table",
+        "description": "You can gamble with a Gambling table.",
+        "operations": [
+            {
+                "name": "gamble",
+                "distance": 1,
+                "owner": false
+            }
+        ]
+    },
+    {
+        "name": "Goal",
+        "description": "You can play soccer with a Goal.",
+        "operations": [
+            {
+                "name": "play soccer",
+                "distance": 1,
+                "owner": false
+            }
+        ]
+    }
+]

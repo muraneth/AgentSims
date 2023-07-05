@@ -1,0 +1,12 @@
+[profile.default]
+ffi = false
+fuzz_runs = 256
+optimizer = true
+optimizer_runs = 1000000
+verbosity = 1
+libs = ["../../node_modules", "../../../mud"]
+src = "src"
+out = "out"
+deny_warnings = false
+solc_version = "0.8.13"
+ignored_error_codes = [5574, 6321, 5667]

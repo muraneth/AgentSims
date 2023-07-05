@@ -1,0 +1,93 @@
+{
+  "components": [
+    "CounterComponent",
+    "EncounterComponent",
+    "EncounterableComponent",
+    "EncounterTriggerComponent",
+    "MapConfigComponent",
+    "MonsterTypeComponent",
+    "MovableComponent",
+    "ObstructionComponent",
+    "OwnedByComponent",
+    "PlayerComponent",
+    "PositionComponent",
+    "Boundary2DComponent",
+    "NameComponent",
+    "ItemMetadataComponent",
+    "InteractiveComponent",
+    "EquipmentTypeComponent",
+    "AgentComponent",
+    "AnimationComponent",
+    "BuildingMetadataComponent",
+    "ChatComponent",
+    "PlanComponent",
+    "PromptComponent",
+    "StatusComponent",
+    "TimeAwareComponent",
+    "TransformComponent",
+    "BroadcastComponent",
+    "CoinComponent"
+  ],
+  "initializers": ["MapConfigInitializer", "EquipmentTypeInitializer"],
+  "systems": [
+    {
+      "name": "EncounterFleeSystem",
+      "writeAccess": ["EncounterComponent"]
+    },
+    {
+      "name": "EncounterThrowSystem",
+      "writeAccess": ["CounterComponent", "EncounterComponent", "OwnedByComponent"]
+    },
+    {
+      "name": "JoinGameSystem",
+      "writeAccess": ["EncounterableComponent", "MovableComponent", "PlayerComponent", "PositionComponent", "TransformComponent"]
+    },
+    {
+      "name": "MoveSystem",
+      "writeAccess": ["EncounterComponent", "MonsterTypeComponent", "PositionComponent", "TransformComponent"]
+    },
+    {
+      "name": "ChatSystem",
+      "writeAccess": ["ChatComponent"]
+    },
+    {
+      "name": "CancelChatSystem",
+      "writeAccess": ["ChatComponent"]
+    },
+    {
+      "name": "AgentSystem",
+      "writeAccess": ["AgentComponent", "CoinComponent"]
+    },
+    {
+      "name": "PromptSystem",
+      "writeAccess": ["PromptComponent"]
+    },
+    {
+      "name": "CancelPromptSystem",
+      "writeAccess": ["PromptComponent"]
+    },
+    {
+      "name": "InteractionSystem",
+      "writeAccess": ["InteractiveComponent", "PositionComponent", "StatusComponent"]
+    },
+    {
+      "name": "StatusSystem",
+      "writeAccess": ["StatusComponent"]
+    },
+    {
+      "name": "PlanSystem",
+      "writeAccess": ["PlanComponent"]
+    },
+    {
+      "name": "BroadcastSystem",
+      "writeAccess": ["BroadcastComponent"]
+    },
+    {
+      "name": "CancelBroadcastSystem",
+      "writeAccess": ["BroadcastComponent"]
+    },{
+      "name": "TimeAwareSystem",
+      "writeAccess": ["TimeAwareComponent"]
+    }
+  ]
+}

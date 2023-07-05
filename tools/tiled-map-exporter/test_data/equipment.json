@@ -1,0 +1,86 @@
+[
+    {
+        "equipment_properties": {
+            "name": "bed",
+            "description": "You can sleep with a bed.",
+            "operations": ["sleep"]
+        }
+    },
+    {
+        "equipment_properties": {
+            "name": "tv",
+            "description": "You can watch tv with a tv.",
+            "operations": ["watch"]
+        }
+    },
+    {
+        "equipment_properties": {
+            "name": "dinner table",
+            "description": "You can have meal with a dinner table.",
+            "operations": ["have meal"]
+        }
+    },
+    {
+        "equipment_properties": {
+            "name": "kitchen",
+            "description": "You can make a meal with a kitchen.",
+            "operations": ["make a meal"]
+        }
+    },
+    {
+        "equipment_properties": {
+            "name": "restaurant counter",
+            "description": "You can buy a meal with a bar counter.",
+            "operations": ["buy a meal"]
+        }
+    },
+    {
+        "equipment_properties": {
+            "name": "cafe seat",
+            "description": "You can drink coffee with a cafe seat.",
+            "operations": ["drink coffee"]
+        }
+    },
+    {
+        "equipment_properties": {
+            "name": "cafe counter",
+            "description": "You can buy coffee with a cafe counter.",
+            "operations": ["buy coffee"]
+        }
+    },
+    {
+        "equipment_properties": {
+            "name": "bar seat",
+            "description": "You can drink wine with a bar seat.",
+            "operations": ["drink wine"]
+        }
+    },
+    {
+        "equipment_properties": {
+            "name": "bar counter",
+            "description": "You can buy wine with a bar counter.",
+            "operations": ["buy wine"]
+        }
+    },
+    {
+        "equipment_properties": {
+            "name": "rest room",
+            "description": "You can rest with a rest room.",
+            "operations": ["rest"]
+        }
+    },
+    {
+        "equipment_properties": {
+            "name": "office seat",
+            "description": "You can work with a office seat if you are a worker.",
+            "operations": ["work"]
+        }
+    },
+    {
+        "equipment_properties": {
+            "name": "school class",
+            "description": "You can teach students with a school class if you are a teacher.",
+            "operations": ["teach students"]
+        }
+    }
+]

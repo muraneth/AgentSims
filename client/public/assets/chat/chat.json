@@ -1,0 +1,39 @@
+{"frames": {
+
+"Medium_01.png":
+{
+	"frame": {"x":1,"y":1,"w":2,"h":29},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":2,"h":29},
+	"sourceSize": {"w":2,"h":32}
+},
+"Medium_02.png":
+{
+	"frame": {"x":5,"y":1,"w":2,"h":29},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":2,"h":29},
+	"sourceSize": {"w":2,"h":32}
+},
+"Medium_03.png":
+{
+	"frame": {"x":9,"y":1,"w":1,"h":29},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":1,"h":29},
+	"sourceSize": {"w":1,"h":32}
+}},
+"animations": {
+	"Medium": ["Medium_01.png","Medium_02.png","Medium_03.png"]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.1",
+	"image": "chat.png",
+	"format": "RGBA8888",
+	"size": {"w":11,"h":31},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:22b5c1f003bc7dd1867efaecc6bb3792:51bb0f28e8c8dc15f7f2753c365c19d1:24463b3d2641407c6373aa9b9911645a$"
+}
+}

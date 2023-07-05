@@ -1,0 +1,26 @@
+# 使用 Node.js 镜像作为基础镜像
+FROM node:18
+
+# 设置工作目录
+WORKDIR /app
+
+# 复制项目的所有文件至工作目录
+COPY . .
+
+# 安装项目依赖
+RUN cd client && yarn install --verbose
+
+# 构建前端项目
+RUN cd client && yarn build:live
+
+# 使用 Nginx 镜像作为服务端，将构建产物部署至 Nginx
+FROM nginx:stable-alpine
+
+# 复制前端项目的构建产物；注意根据实际构建产物目录修改路径
+COPY --from=0 /app/client/dist /usr/share/nginx/html
+
+# 配置 Nginx 监听端口（默认为80）
+EXPOSE 80
+
+# 启动 Nginx
+CMD ["nginx", "-g", "daemon off;"]

@@ -1,0 +1,7 @@
+**/node_modules/
+
+contracts/cache/
+contracts/out/
+ai/
+tools/
+

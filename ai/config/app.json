@@ -1,0 +1,79 @@
+{
+    "version": "0.0.1",
+    "online": false,
+    "log_level": "error",
+    "print_log": true,
+    "gpt_host": "localhost",
+    "gpt_port": 9801,
+    "gpt3_cooldown": 30,
+    "gpt_temp": 0.6,
+    "gpt_proxy": "http://127.0.0.1:7890",
+    "gpt_use_proxy": false,
+    "world_address": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+    "w3_RPC": "http://43.163.220.70:8545",
+    "abi_dir": "contracts/abi",
+    "mud_components": [
+        {
+            "name": "Agent",
+            "types": ["string", "uint16", "string", "string"]
+        },
+        {
+            "name": "Boundary2D",
+            "types": ["int32", "int32", "int32", "int32"]
+        },
+        {
+            "name": "Chat",
+            "types": ["string", "uint256"]
+        },
+        {
+            "name": "Interactive",
+            "types": ["bool"]
+        },
+        {
+            "name": "ItemMetadata",
+            "types": ["string", "string", "string"]
+        },
+        {
+            "name": "Status",
+            "types": ["string"]
+        },
+        {
+            "name": "Plan",
+            "types": ["string"]
+        },
+        {
+            "name": "Position",
+            "types": ["(int32,int32)"]
+        },
+        {
+            "name": "Prompt",
+            "types": ["string"]
+        },
+        {
+            "name": "Player",
+            "types": ["bool"]
+        },
+        {
+            "name": "MapConfig",
+            "types": ["uint32", "uint32", "bytes"]
+        },
+        {
+            "name": "Broadcast",
+            "types": ["string"]
+        }
+    ],
+    "mud_systems": [
+        "Move",
+        "JoinGame",
+        "Chat",
+        "Agent",
+        "Interaction",
+        "Status",
+        "CancelChat",
+        "CancelPrompt",
+        "Broadcast",
+        "CancelBroadcast",
+        "Plan",
+        "TimeAware"
+    ]
+}

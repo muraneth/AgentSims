@@ -1,0 +1,143 @@
+@font-face {
+  font-family: 'Fugaz One';
+  src: url('/fonts/FugazOne-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+
+  .left {
+    flex: 1;
+    background: #479757;
+
+    padding: 40px 88px;
+
+    .gameHeader {
+      width: 100%;
+
+      .logo {
+        width: 100%;
+        height: 70px;
+
+        display: flex;
+        align-items: flex-start;
+
+        .logo_left {
+          height: 70px;
+          width: 220px;
+
+          font-family: 'Fugaz One';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 48px;
+          line-height: 70px;
+          display: flex;
+          align-items: center;
+          
+          color: #FFFB92;
+        }
+
+        .logo_right {
+          height: 70px;
+
+          font-family: 'Fugaz One';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 48px;
+          line-height: 70px;
+          display: flex;
+          align-items: center;
+          
+          color: #FFFFFF;
+        }
+      }
+
+      .head2 {
+        width: 100%;
+        height: 48px;
+
+        display: flex;
+        justify-content: space-between;
+
+        padding: 16px 0px;
+
+        .head2_left {
+          width: 227px;
+          height: 16px;
+
+          display: flex;
+          align-items: flex-start;
+
+          font-family: 'Arial';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 14px;
+          line-height: 16px;
+          /* identical to box height */
+
+          text-align: left;
+
+          color: #FFFFFF;
+
+
+          /* Inside auto layout */
+
+          flex: none;
+          flex-grow: 0;
+
+          svg {
+            margin-right: 10px;
+          }
+        }
+
+        .head2_right {
+          width: 330px;
+          height: 16px;
+
+          font-family: 'Arial';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 16px;
+          /* identical to box height */
+
+          text-align: right;
+
+          color: #FFFFFF;
+
+          opacity: 0.5;
+        }
+      }
+    }
+
+    .gameBody {
+      width: 100%;
+      height: calc(100% - 140px);
+
+      border: 8px solid rgba(0, 0, 0, 0.05);
+
+      .loading {
+        width: 100%;
+        height: 100%;
+
+        display: flex;
+        justify-content: center; /* 水平居中 */
+        align-items: center;     /* 垂直居中 */
+
+        font-size: 24px;
+
+        .text {
+          font-size: 24px;
+        }
+      }
+    }
+  }
+
+  .right {
+    width: 488px;
+    background: #438F53;
+  }
+}
